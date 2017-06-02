@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:weightSum="2"
     tools:context="com.example.dcasanova.monitorvmc.MainActivity">
     <LinearLayout
         android:layout_width="match_parent"
@@ -127,7 +128,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="3" />
+                android:text="5" />
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -138,7 +139,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="3" />
+                android:text="4" />
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -149,7 +150,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="3" />
+                android:text="0" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
